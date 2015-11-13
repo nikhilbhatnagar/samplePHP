@@ -1,14 +1,11 @@
 <html>
-  <head>
-    <title>Welcome to firstphp.com!</title>
-  </head>
-  <body>
-    <h1>Success!  The firstphp.com virtual host is working!</h1>
-    <br/><br/>
-    
-    <?php
-		echo $_SERVER['HTTP_USER_AGENT'];
-		phpinfo();
-	?>
-  </body>
+<head>
+<title>Welcome to firstphp.com!</title>
+</head>
+<body>
+	<form action="wishlist.php" method="GET" name="wishList">
+		Show wish list of: <input type="text" name="user" value="" /> <input
+			type="submit" value="Go" />
+	</form>
+</body>
 </html>
